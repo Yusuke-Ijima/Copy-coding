@@ -1,0 +1,51 @@
+@media(max-width: 950px){
+  .containar{
+    padding: 0 100px;
+  }
+  header{
+    height: 130px;
+    .containar{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .header-left{
+        font-size: 10px;
+        margin-top: 0;
+        text-align: center;
+      }
+      .header-right{
+        margin-left: 0;
+        text-align: center;
+        .tema{
+          margin: 0;
+        }
+        h1{
+          display: inline-block;
+        }
+        .telephone-number{
+          justify-content: center;
+          p{
+            line-height: 100%;
+          }
+          img{
+            margin: 0;
+          }
+        }
+      }
+      
+    }
+  }
+
+  main{
+    .containar{
+      .menubar-top{
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+    .menubar-leftright{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

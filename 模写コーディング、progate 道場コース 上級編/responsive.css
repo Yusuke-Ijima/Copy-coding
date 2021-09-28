@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* モバイル向けレイアウト */
+@media (max-width: 1000px) {
+  .lesson-wrapper .lessons .lesson {
+    width: 35%;
+  }
+}
+
+@media (max-width: 670px) {
+  .lesson-wrapper .lessons .lesson {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,255 @@
+* {
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  line-height: 180%;
+  word-break: break-all;
+}
+body {
+  background-color: #f6f6f6;
+  color: #515151;
+}
+li {
+  display: block;
+}
+$main-color: #6cc6c4;
+
+.containar {
+  padding: 0 170px;
+}
+
+header {
+  .containar {
+    display: flex;
+    border-top: solid 8px $main-color;
+    .header-left {
+      margin-top: 50px;
+    }
+    .header-right {
+      margin-left: auto;
+      height: 15px;
+      text-align: right;
+      .tema {
+        font-size: 5px;
+        margin-top: 10px;
+      }
+
+      .telephone-number {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+        margin-top: 8px;
+        img {
+          margin: 10px;
+          width: auto;
+        }
+      }
+      h1 {
+        border: solid 1px #d6d6d6;
+        font-size: 10px;
+        padding: 5px 20px;
+        text-align: center;
+      }
+      .red-font {
+        color: red;
+      }
+    }
+  }
+}
+
+main {
+  .containar {
+    .menubar-top {
+      border-radius: 10px;
+      margin-top: 30px;
+      display: flex;
+      background-color: $main-color;
+      color: white;
+      
+      .menubar-btn {
+        padding: 18px 0;
+        // width: 182px;
+        flex: 1;
+        display: block;
+        text-align: center;
+        border-right: #71c9c7 solid 1px;
+        border-left: #99e1df solid 1px;
+        &:hover{
+          background-color: pink;
+          cursor: pointer;
+        }
+        .rightbar-only {      //なんできかない
+          border-left: none;
+        }
+        .leftbar-only {
+          border-left: none;
+        }
+        h1 {
+          font-weight: bold;
+        }
+        p {
+          font-size: 50%;
+          font-weight: bold;
+        }
+      }
+    }
+    .menubar-leftright {
+      display: flex;
+      justify-content: space-between;   //なぜかきかない
+      margin-top: 20px;
+      .menubar-left {
+        flex: 1;
+        width: 100%;
+        margin-right: 20px;
+        .menubar-left-top {
+          border-radius: 10px;
+          margin-bottom: 20px;
+          .title {
+            color: white;
+            background-color: $main-color;
+            font-size: 123.1%;
+            height: 40px;
+            line-height: 40px;
+            margin: 0;
+            padding: 0 15px;
+            border-radius: 8px 8px 0 0;
+          }
+          ul {
+            border: solid 1px #6cc6c4;
+
+            background-color: #ffffff;
+            list-style: none;
+            padding-bottom: 16px;
+            li {
+              text-decoration: none;
+              color: #595959;
+              font-size: 108%;
+              display: block;
+              font-weight: bold;
+              margin: 0px 12px;
+              padding: 8px 0;
+              list-style: none;
+              border-bottom: #6cc6c4 solid 1px;
+              border-style: solid;
+              background: url(../images/bgListIcon01.png) no-repeat 5px center;
+              &:hover{
+                color: $main-color;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        .menubar-left-bottom {
+          border-radius: 10px;
+          margin-bottom: 10px;
+          .title {
+            color: white;
+            background-color: $main-color;
+            font-size: 123.1%;
+            height: 40px;
+            line-height: 40px;
+            margin: 0;
+            padding: 0 15px;
+            border-radius: 8px 8px 0 0;
+          }
+          ul {
+            border: solid 1px #6cc6c4;
+
+            background-color: #ffffff;
+            list-style: none;
+            padding-bottom: 16px;
+            li {
+              text-decoration: none;
+              color: #595959;
+              font-size: 108%;
+              display: block;
+              font-weight: bold;
+              margin: 0px 12px;
+              padding: 8px 0;
+              list-style: none;
+              border-bottom: #6cc6c4 solid 1px;
+              border-style: solid;
+              background: url(../images/bgListIcon01.png) no-repeat 5px center;
+              &:hover{
+                color: greenyellow;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+
+      .menubar-right {
+        flex: 2;
+        .menubar-right-top {
+          img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            display: block;
+          }
+        }
+        .menubar-right-bottom {
+          background-color: white;
+          padding: 35px 25px;
+          padding-bottom: 50px;
+          h1{
+            font-size: 15px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            border-bottom: 3px solid $main-color;
+          }
+          ul{
+            li{
+              display: flex;
+              align-items: center;
+              border-bottom: 1px #CCCCCC dotted;
+              padding: 10px 10px;
+              line-height: 100%;
+              .time{
+                flex: 1;
+                font-weight: bold;
+              }
+              .information{
+                flex: 3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer{
+  .containar{
+    .footer-menu{
+      margin-top: 20px;
+      ul{
+        display: flex;
+        background-color: $main-color;
+        li{
+          padding: 0 20px;
+          color: white;
+          font-size: 90%;
+          &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    h1{
+      text-align: right;
+      border-bottom: 2px solid $main-color;
+      padding: 10px 0;
+      font-size: 85%;
+      span{
+        font-weight: bold;
+      }
+    }
+    h2{
+      text-align: center;
+      padding: 12px 0;
+      font-size: 85%;
+    }
+  }
+}

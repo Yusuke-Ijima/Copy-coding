@@ -1,0 +1,118 @@
+@media (max-width: 1000px) {
+  header {
+    background-image: url(img/main.png);
+    // background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 500px;
+    height: 50vh;
+    width: 100%;
+    .header-containar {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 20px;
+      .header-left {
+        img {
+          width: 80px;
+          // margin-top: 30px;
+          // margin-left: 70px;
+        }
+      }
+      .header-right {
+        .hamburger {
+          display: inline;
+        }
+        .navi {
+          display: none;
+        }
+        // font-size: 18px;
+        // margin-left: auto;
+        // ul {
+        //   display: flex;
+        //   li {
+        //     margin: 0 30px;
+        //     a {
+        //       color: black;
+        //       // text-decoration: none;
+        //     }
+        //   }
+        // }
+      }
+    }
+    .header-main {
+      .header-title {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+      }
+    }
+  }
+  .left-img{
+    margin-bottom: 20px;
+  }
+  footer {
+    .bottom-menu {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      a {
+        width: 100%;
+        img {
+          width: 100%;
+          vertical-align: bottom;
+        }
+      }
+    }
+    .footer-leftright {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      padding: 30px 80px;
+      font-size: 110%;
+      flex-direction: column;
+      .footer-left {
+        img {
+          display: none;
+          // width: 50%;
+        }
+      }
+      .footer-right {
+        margin: 0;
+        ul {
+          display: flex;
+          flex-direction: column;
+          li {
+            a {
+              display: inline-block;
+              color: white;
+              margin: 20px 0;
+            }
+          }
+        }
+      }
+      .footer-left1 {
+        img {
+          display: inline-block;
+          width: 50%;
+          margin-top: 20px;
+          vertical-align: bottom;
+        }
+      }
+    }
+    .bottom {
+      h1 {
+        // background-color: black;
+        // text-align: center;
+        // color: white;
+        // font-size: 70%;
+        padding: 0 0 10px 0;
+      }
+    }
+  }
+}

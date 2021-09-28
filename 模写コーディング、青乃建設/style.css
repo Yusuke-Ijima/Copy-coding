@@ -1,0 +1,235 @@
+@charset "UTF-8";
+* {
+  line-height: 1.2;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-image: url(img/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+
+header .header-containar {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 80px;
+}
+
+header .header-containar .header-left img {
+  width: 140px;
+}
+
+header .header-containar .header-right {
+  font-size: 18px;
+}
+
+header .header-containar .header-right .hamburger {
+  display: none;
+}
+
+header .header-containar .header-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-containar .header-right ul li {
+  margin: 0 30px;
+}
+
+header .header-containar .header-right ul li a {
+  color: black;
+}
+
+header .header-main .header-title {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.container main .main-title1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 80px 0;
+}
+
+.container main .informations ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.container main .informations ul li {
+  color: black;
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+}
+
+.container main .informations ul li a {
+  color: black;
+}
+
+.container main .informations ul li a .info {
+  border: 1px solid black;
+  margin: 0 20px;
+}
+
+.container main .main-title2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 80px 0;
+}
+
+.container main .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 0 70px;
+}
+
+.container main .row .main-img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container main .row .sub-img {
+  width: 60%;
+}
+
+.container main .row h1 {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.container main .row p {
+  margin: 20px 0;
+}
+
+.container main .row .bottom-title {
+  text-align: center;
+  border: 1px solid black;
+  margin: 80px auto;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.container main .row .bottom-title a {
+  color: black;
+}
+
+footer .bottom-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .bottom-menu img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+footer .footer-leftright {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  padding: 30px 80px;
+  font-size: 110%;
+}
+
+footer .footer-leftright .footer-left {
+  text-align: center;
+}
+
+footer .footer-leftright .footer-left img {
+  width: 50%;
+}
+
+footer .footer-leftright .footer-right {
+  margin-left: auto;
+}
+
+footer .footer-leftright .footer-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+footer .footer-leftright .footer-right ul li {
+  margin: 0 30px;
+}
+
+footer .footer-leftright .footer-right ul li a {
+  color: white;
+}
+
+footer .footer-leftright .footer-left1 {
+  text-align: center;
+}
+
+footer .footer-leftright .footer-left1 img {
+  display: none;
+}
+
+footer .bottom h1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+  padding: 30px 0 10px 0;
+}
+/*# sourceMappingURL=style.css.map */

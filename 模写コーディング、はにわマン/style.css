@@ -1,0 +1,303 @@
+* {
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  line-height: 180%;
+  word-break: break-all;
+}
+
+body {
+  background-color: #f6f6f6;
+  color: #515151;
+}
+
+li {
+  display: block;
+}
+
+.containar {
+  padding: 0 170px;
+}
+
+header .containar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: solid 8px #6cc6c4;
+}
+
+header .containar .header-left {
+  margin-top: 50px;
+}
+
+header .containar .header-right {
+  margin-left: auto;
+  height: 15px;
+  text-align: right;
+}
+
+header .containar .header-right .tema {
+  font-size: 5px;
+  margin-top: 10px;
+}
+
+header .containar .header-right .telephone-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+header .containar .header-right .telephone-number img {
+  margin: 10px;
+  width: auto;
+}
+
+header .containar .header-right h1 {
+  border: solid 1px #d6d6d6;
+  font-size: 10px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+header .containar .header-right .red-font {
+  color: red;
+}
+
+main .containar .menubar-top {
+  border-radius: 10px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6cc6c4;
+  color: white;
+}
+
+main .containar .menubar-top .menubar-btn {
+  padding: 18px 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: block;
+  text-align: center;
+  border-right: #71c9c7 solid 1px;
+  border-left: #99e1df solid 1px;
+}
+
+main .containar .menubar-top .menubar-btn:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+main .containar .menubar-top .menubar-btn .rightbar-only {
+  border-left: none;
+}
+
+main .containar .menubar-top .menubar-btn .leftbar-only {
+  border-left: none;
+}
+
+main .containar .menubar-top .menubar-btn h1 {
+  font-weight: bold;
+}
+
+main .containar .menubar-top .menubar-btn p {
+  font-size: 50%;
+  font-weight: bold;
+}
+
+main .containar .menubar-leftright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+main .containar .menubar-leftright .menubar-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  margin-right: 20px;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-top {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-top .title {
+  color: white;
+  background-color: #6cc6c4;
+  font-size: 123.1%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 15px;
+  border-radius: 8px 8px 0 0;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-top ul {
+  border: solid 1px #6cc6c4;
+  background-color: #ffffff;
+  list-style: none;
+  padding-bottom: 16px;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-top ul li {
+  text-decoration: none;
+  color: #595959;
+  font-size: 108%;
+  display: block;
+  font-weight: bold;
+  margin: 0px 12px;
+  padding: 8px 0;
+  list-style: none;
+  border-bottom: #6cc6c4 solid 1px;
+  border-style: solid;
+  background: url(../images/bgListIcon01.png) no-repeat 5px center;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-top ul li:hover {
+  color: #6cc6c4;
+  cursor: pointer;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-bottom {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-bottom .title {
+  color: white;
+  background-color: #6cc6c4;
+  font-size: 123.1%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 15px;
+  border-radius: 8px 8px 0 0;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-bottom ul {
+  border: solid 1px #6cc6c4;
+  background-color: #ffffff;
+  list-style: none;
+  padding-bottom: 16px;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-bottom ul li {
+  text-decoration: none;
+  color: #595959;
+  font-size: 108%;
+  display: block;
+  font-weight: bold;
+  margin: 0px 12px;
+  padding: 8px 0;
+  list-style: none;
+  border-bottom: #6cc6c4 solid 1px;
+  border-style: solid;
+  background: url(../images/bgListIcon01.png) no-repeat 5px center;
+}
+
+main .containar .menubar-leftright .menubar-left .menubar-left-bottom ul li:hover {
+  color: greenyellow;
+  cursor: pointer;
+}
+
+main .containar .menubar-leftright .menubar-right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+main .containar .menubar-leftright .menubar-right .menubar-right-top img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+main .containar .menubar-leftright .menubar-right .menubar-right-bottom {
+  background-color: white;
+  padding: 35px 25px;
+  padding-bottom: 50px;
+}
+
+main .containar .menubar-leftright .menubar-right .menubar-right-bottom h1 {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #6cc6c4;
+}
+
+main .containar .menubar-leftright .menubar-right .menubar-right-bottom ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px #CCCCCC dotted;
+  padding: 10px 10px;
+  line-height: 100%;
+}
+
+main .containar .menubar-leftright .menubar-right .menubar-right-bottom ul li .time {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: bold;
+}
+
+main .containar .menubar-leftright .menubar-right .menubar-right-bottom ul li .information {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+footer .containar .footer-menu {
+  margin-top: 20px;
+}
+
+footer .containar .footer-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6cc6c4;
+}
+
+footer .containar .footer-menu ul li {
+  padding: 0 20px;
+  color: white;
+  font-size: 90%;
+}
+
+footer .containar .footer-menu ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer .containar h1 {
+  text-align: right;
+  border-bottom: 2px solid #6cc6c4;
+  padding: 10px 0;
+  font-size: 85%;
+}
+
+footer .containar h1 span {
+  font-weight: bold;
+}
+
+footer .containar h2 {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 85%;
+}
+/*# sourceMappingURL=style.css.map */

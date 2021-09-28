@@ -1,0 +1,107 @@
+@media (max-width: 1000px) {
+  header {
+    background-image: url(img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+  }
+  header .header-containar {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 20px;
+  }
+  header .header-containar .header-left img {
+    width: 80px;
+  }
+  header .header-containar .header-right .hamburger {
+    display: inline;
+  }
+  header .header-containar .header-right .navi {
+    display: none;
+  }
+  header .header-main .header-title {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+  }
+  .left-img {
+    margin-bottom: 20px;
+  }
+  footer .bottom-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .bottom-menu a {
+    width: 100%;
+  }
+  footer .bottom-menu a img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  footer .footer-leftright {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: black;
+    padding: 30px 80px;
+    font-size: 110%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-leftright .footer-left img {
+    display: none;
+  }
+  footer .footer-leftright .footer-right {
+    margin: 0;
+  }
+  footer .footer-leftright .footer-right ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-leftright .footer-right ul li a {
+    display: inline-block;
+    color: white;
+    margin: 20px 0;
+  }
+  footer .footer-leftright .footer-left1 img {
+    display: inline-block;
+    width: 50%;
+    margin-top: 20px;
+    vertical-align: bottom;
+  }
+  footer .bottom h1 {
+    padding: 0 0 10px 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
